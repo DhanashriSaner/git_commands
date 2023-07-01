@@ -1,27 +1,51 @@
 # git_commands
 
-#### 1) Initialized empty Git repository
+
+## Three stage Architecture of git
+
+![areas](https://github.com/DhanashriSaner/git_commands/assets/88526990/2db1b30f-5542-44b3-8775-64c54f4af283)
+
+#### 1) Set global Username and email to git(locally)
+```
+git config --global user.name "<username>"
+```
+
+```
+git config --global user.email "<email>"
+```
+#### 2) Clone an existing Git repository
+```
+git clone <repository_URL>
+```
+
+#### 3) Initialized empty Git repository
 ```
 git init
 ```
-#### 2) Show the status of git repository
+#### 4) Show the status of the git repository
 ```
 git status
 ```
-#### 3) Add the file from working directory into the staging area.
+#### 5) Add the file from the working directory into the staging area.
 ```
-git add file.txt
-```
-#### 3) Save the file into the git repository.
-```
-git commit -m "file added"
+git add <filename>
 ```
 
-#### Question :
+#### 6) Add all current directory files into the staging area.
+```
+git add .
+```
+#### 7) Commit all the stage files into git
+```
+git commit -m "<Commit_message>"
+```
 
-What if the file is deleted, and we want to restore it. 
-**solution** : we can do it, using the hash. And the hash are available inside logs
+#### 8) Restore the file from being modified to Tracked (2 options are available)
 
 ```
-git restore file.txt
+git restore <filename>
 ```
+```
+git checkout <filename>
+```
+
