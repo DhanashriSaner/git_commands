@@ -1,7 +1,7 @@
 # git_commands
 
 
-## Three stage Architecture of git
+## Three-stage Architecture of git
 
 ![areas](https://github.com/DhanashriSaner/git_commands/assets/88526990/2db1b30f-5542-44b3-8775-64c54f4af283)
 
@@ -35,7 +35,7 @@ git add <filename>
 ```
 git add .
 ```
-#### 7) Commit all the stage files into git
+#### 7) Commit all the stage files to git
 ```
 git commit -m "<Commit_message>"
 ```
@@ -47,5 +47,10 @@ git restore <filename>
 ```
 ```
 git checkout <filename>
+```
+
+#### 7) Add remote origin URL
+```
+git remote add origin <Your_remote_git_URL>
 ```
 
