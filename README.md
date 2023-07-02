@@ -49,8 +49,16 @@ git restore <filename>
 git checkout <filename>
 ```
 
-#### 7) Add remote origin URL
+#### 9) Add remote origin URL
 ```
 git remote add origin <Your_remote_git_URL>
 ```
+#### 10) Remove remote origin URL
+```
+git remote remove origin
+```
 
+#### 11) Push your local changes to the remote branch
+```
+git push origin <branch_name>
+```
