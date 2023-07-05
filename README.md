@@ -62,3 +62,12 @@ git remote remove origin
 ```
 git push origin <branch_name>
 ```
+#### 12) create a new branch
+```
+git checkout -b <branch_name>
+```
+#### 13) Switch to master
+
+```
+git switch master
+```
